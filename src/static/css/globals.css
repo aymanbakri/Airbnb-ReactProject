@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 100px;
+    float: left;
+    
+}
+ul.headerUl {
+    list-style: none;
+    width:95%;
+    display: inline-block;
+}
+ul.headerUl li{
+    float:right;
+    
+}
+ul.headerUl li a{
+    display: inline-block;
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+ul.headerUl li a:hover {
+    text-decoration: underline gray;
+}
+.Contact{
+    width: 60%;
+    margin-left: 20%;
+}
+.About{
+    width: 60%;
+    margin-left: 20%; 
+}
+h1.socrata{
+    color: #008489;
+    font-size: 48px ;  
+}
+.jumbotron{
+    width: 70%;
+    margin-left: 20%;
+}
+.socrata{
+    color: #008489;
+    font-size: 48px ;
+    line-height: 56px ;
+}
+.textTitle{
+    color: #484848 ;
+    width: 50%;
+    font-size: 48px ;
+    line-height: 56px ;
+}
+.searchBar{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+}
+input[type="search"]{
+    margin: 0px 30px;
+    width: 400px;
+    min-height: 40px;
+    border: 1px solid #008489;
+}
+input[type="number"]{
+    margin: 0px 30px;
+    width: 400px;
+    min-height: 40px;
+    border: 1px solid #008489;
+}
+input::placeholder {
+    padding: 5px;
+}
+
+.galleryContainer {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.imageHolder {
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+}
+.galleryImage{
+    width:80%;
+}
+.imageDesc{
+    display: flex;
+    flex-wrap:wrap;
+}
+.locationName{
+  width: 70%;
+}
+.locationPrice{
+   width: 30%;
+}
+.locationCity{
+  width: 52%;
+    
+}
+.rating{
+  margin-left: 5px;
+}
+.fa-star , .fa-star-half{
+    color: #008489;
+}
+.locationPage{
+    padding: 0;
+    margin:0;
+}
+.HeaderImage{
+    margin:0;
+}
+.PageImage{
+    width: 100%;
+    height: 700px;
+}
+.locationContainer{
+    width: 40%;
+    margin-left: 20%;
+}
+.LocationNav{
+    border-bottom: #484848 1px solid;
+   
+}
+.locationUl{
+    list-style: none;
+    display: inline-block;
+    display: flex;
+}
+ul.locationUl li a{
+    display: inline-block;
+    color: #008489;
+    font-size: 24px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+ul.locationUl li a:hover {
+    text-decoration: underline #008489;
+    font-size: 26px;
+}
+.locationPageInfo{
+    margin-top: 10px;
+    border-bottom: #484848 1px solid;
+    padding: 15px;
+}
+.locationPageName{
+    font-size: 32px;
+    font-style: oblique;
+    font: bold;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.locationLink{
+    display: flex;
+}
+a.nameLink{
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 17px ;
+    font-weight: 300 ;
+    letter-spacing: 0.3px ;
+    line-height: 22px ;
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
+a.ratingLink{
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 17px ;
+    font-weight: 300 ;
+    letter-spacing: 0.3px ;
+    line-height: 22px ;
+    display: flex;
+    margin-left: 10px;
+    color: black;
+}
+.reviewsLink{
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 17px ;
+    font-weight: 300 ;
+    letter-spacing: 0.3px ;
+    line-height: 22px ;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.LocationFeatures{
+    width: 40%;
+    margin-left: 20%;
+    display: flex;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 17px ;
+    font-weight: 300 ;
+    letter-spacing: 0.3px ;
+    line-height: 22px ;
+    justify-content: space-around;
+    border-bottom: #484848 1px solid;
+}
+.LocationFeatures .LocationFeature{
+    width: 33.333333%;
+    padding: 15px;
+    text-align: center;
+}
+.icon-size{
+    color: #008489;
+}
+.LocationDescription{
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-bottom: #484848 1px solid;
+}
+.aboutDesc{
+    font-size: 24px;
+    color: #008489;
+    margin-left: 25px;
+}
+.aboutDescription{
+   color: #484848 ;
+   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+   font-size: 17px ;
+   font-weight: 300 ;
+   letter-spacing: 0.3px ;
+   line-height: 22px ;
+   margin-left: 35px;
+   padding: 15px;
+}
+.LocationMap{
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 15px;
+    border-bottom: #484848 1px solid;
+}
+.LocationMapTitle{
+    font-size: 24px;
+    color: #008489;
+    margin-left: 25px;
+}
+.GoogleMap{
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+.Reviews{
+    width: 40%;
+    margin-left: 20%;
+}
+.ReviewLocation{
+    margin-bottom: 30px;
+    display: flex;
+    margin-top: 20px;
+    padding: 15px;
+    border-bottom: #484848 1px solid;
+}
+.reviewsRev{
+    margin-left: 25px;
+    font-size: 18px;
+    color: #484848;
+}
+.reviewsRating{
+    margin-left: 25px;
+    font-size: 18px;
+    color: #008489;
+}
+.Review{
+    padding: 15px;
+    border-bottom: #484848 1px solid;
+}
+.AuthorImage{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   font-size: 30px;
+   color: #fff;
+   line-height: 50px;
+   text-align: center;
+   background: #000;
+   margin-right: 20px;
+   float: left;
+}
+.imglogo{
+    float: left;
+}
+
+.logo{
+    margin: 10px 10px 10px 80px;
+    display: inline-block;
+}
+.contact{
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 600px;
+    min-height: 200px;
+    background-color: #008489;
+    box-shadow: 10px 10px 5px #888888; 
+    font-size: 18px;   
+}
+
+.market{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: black;
+    font-size: 24px;
+    
+}
+.flex{
+    display: flex;
+}
+.address{
+    margin-top: 5%;
+    margin-left: 15%;
+    color: black;
+}
+.telephone{
+
+    margin-top: 5%;
+    margin-left: 10%;
+    color: black;
+}
+
+.details{
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 800px;
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin: 10px 30px 30px 0px;
+    border: 1px solid #008489;
+    border-radius: 4px;
+}
+#msg{
+    width: 92%;
+    min-height: 200px;
+    text-indent: 10px;
+    padding-bottom: 140px;
+}
+.button{
+    border-radius: 8px;
+    background-color: #008489;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 700px 20px;
+    cursor: pointer;
+}
+
+.Booking{
+    width: 25%;
+    margin-right: 275px;
+    float: right;
+    height: 500px;
+    border: 1px solid gray;
+    position: relative;
+    top: -50px;
+}
+
+.BookHead{
+   background-color: rgba(0,0,0,0.8);
+   padding:7px;
+   color:white;
+}
+.BookHead .theprice{
+   font-weight: bold;
+   font-size:25px;
+}
+.BookBody{
+   padding:10px;
+}
+.BookBody .CheckInBook{
+   margin-top:7px;
+   width:45%;
+   display:inline-block;
+   margin: 2%;
+}
+.guestBookInput{
+    margin-left: -20px;
+}
+.BookBody .CheckOutBook{
+   margin-top:7px;
+   width:45%;
+   display:inline-block;
+}
+.BookBody .GuestsBook input{
+   display:inline-block;
+}
+.BookBottom{
+   text-align:center;
+   font-weight: 700 ;
+   color: white ;
+   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+   word-wrap: break-word ;
+   font-size: 19px ;
+}
+.BookBottom input:hover{
+   margin-top: 20%;
+   color: white;
+   font: bold;
+   width:72%;
+   padding:15px;
+   border-color: #ff7e82 ;
+   background-color: #ff7e82 ;
+   color: #fff;
+}
+.BookBottom input{
+   margin-top: 20%;
+   color: white;
+   font: bold;
+   width:70%;
+   padding:15px;
+   border-color: #ff5a5f ;
+   background-color: #ff5a5f ;
+   color: #fff;
+}
